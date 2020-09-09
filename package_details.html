@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BizBootstrap | Home</title>
+  <title>BizBootstrap | Package Details</title>
   <link rel='shortcut icon' href='images/favicon.png' type='image/x-icon'>
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body id="home">
+<body id="package-details-page">
 
   <!-- === header section start === -->
   <header>
@@ -46,268 +46,110 @@
   <!-- ===//end of header section === -->
  
 
-  <!-- === banner section start === -->
-  <section class="banner position-relative">
+  <!-- === package-details-banner section start === -->
+  <section class="package-details-banner">
+    <h1>Packages</h1>
+  </section>
+  <!-- ===//end of package-details-banner section === -->
+
+  <!-- === package-details section start === -->
+  <section class="package-details">
     <div class="container">
-      <div class="row">
-        <div class="col-md-7 bg-white pr-md-5">
-          <h1>Excellence, Guaranteed.</h1>
-          <h6>Having a brilliant idea requires a visionary engine to bring it to life</h6>
-          <p>
-            At BizBootstrap, we take the guesswork out of mapping and taking those first steps. Our business start-up package sets up all the essentials you will need to bring your vision to life quickly and professionally.
-          </p>
-          <a href="#" class="btn btn-lg btn-primary px-4">See Packages</a>
+     <div class="card package-details-card">
+       <div class="card-header d-flex align-items-center justify-content-between">
+        <div>
+          <h4 class="package-name">Premium Package</h4>
+          <div class="badge badge-success">Recommended</div>
         </div>
-      </div>
+        <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">99</span>/mo</div>
+       </div>
+       <div class="card-body">
+        <ul>
+          <li><b> <span> Our Premium package takes all that is available in the Full package option and adds eCommerce.</span></b></li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+            <span> A professional website with up to <b> 25 pages</b> for content about your company *logo not supplied</span>
+          </li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+            <span> eCommerce with up to<b> 10 products</b> and integration with Paypal.</span>
+          </li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+            <span> Professional call answering service with the <b> first month free</b></span>
+          </li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+             <span>Your professional email address at your domain with up to up to <b> 50 email addresses you@yourcompany.com </b> </span>
+          </li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+            <span><b> Two dedicated geographic numbers </b> forwarded to your mobile or any other mobile through the control panel. </span>
+          </li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+            <span> For additional privacy, we include a commercial UK correspondence address. This adds another <b> SEO implementation </b> for your new website. </span>
+          </li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+            <span> Connect Social media accounts to your new website </span>
+          </li>
+          <li class="d-flex">
+            <i class="far fa-check-circle"></i>
+            <span> Google Analytics setup on your website to track visitor activity </span>
+          </li>
+        </ul>
+        <div class="text-center">
+          <a href="#" class="btn btn-lg btn-block btn-outline-secondary">Buy Now</a>
+        </div>
+       </div>
+     </div>
+
+     <div class="more-package">
+       <h2 class="heading">More Packages</h2>
+       <div class="row">
+         <div class="col-lg-4 mb-lg-0 mb-4">
+           <a href="#">
+            <div class="card bg-white">
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <h4 class="package-name text-nowrap">Basic</h4>
+                <div class="price text-nowrap"> <span class="currency-symbol">€ </span> <span class="main-price">39</span>/mo</div>
+              </div>
+            </div>
+            </a>
+         </div>
+         <div class="col-lg-4 mb-lg-0 mb-4">
+           <a href="#">
+            <div class="card bg-white">
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <h4 class="package-name text-nowrap">Standard</h4>
+                <div class="price text-nowrap"> <span class="currency-symbol">€ </span> <span class="main-price">59</span>/mo</div>
+              </div>
+            </div>
+            </a>
+         </div>
+         <div class="col-lg-4 mb-lg-0 mb-4">
+           <a href="#">
+            <div class="card bg-white">
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <h4 class="package-name text-nowrap">Full</h4>
+                <div class="price text-nowrap"> <span class="currency-symbol">€ </span> <span class="main-price"> 129</span>/mo</div>
+              </div>
+            </div>
+            </a>
+         </div>
+       </div>
+     </div>
     </div>
   </section>
-  <!-- ===//end of banner section === -->
+  <!-- ===//end of package-details section === -->
  
 
-  <!-- === About section start === -->
-  <section class="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 order-lg-1 order-2">
-          <div class="text">
-            <h2 class="section-heading mb-4 start">Start</h2>
-            <p>
-              When starting an enterprise, the focus is usually the product or service you are providing. We are often so busy doing what is obvious that sometimes essential business processes receive minimal attention.
-              <br><br>
-              At BizBootstrap, we ensure that your service or product will come with the operational attributes expected by your prospective clients. Not only do we set-up the essentials, but we also give your new business the gloss of professionalism consumers expect.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-2 order-1">
-          <div class="image text-center mb-lg-0 mb-4">
-            <img src="images/steps.png" alt="steps" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="image text-center mb-lg-0 mb-4">
-              <img src="images/communicate.png" alt="communicate" class="img-fluid">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="text">
-              <h2 class="section-heading mb-4 communicate">Communicate</h2>
-              <p>
-                With BizBootstrap, you get a choice of customisable websites that will give you an instant web presence that inspires confidence in your enterprise. We use best-practice design language to communicate your intentions efficiently to the customer. We utilise communications forms and maps so that your prospective customers can find out and enquire about your product and service.
-                <br><br>
-                By ensuring that your business is always accessible, you build trust between you and your customers. BizBootstrap sets up your geographic telephone number and answering service so that your customers always get a professional voice when they need to get in touch.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 order-lg-1 order-2">
-          <div class="text">
-            <h2 class="section-heading mb-4 deliver">Deliver</h2>
-            <p>
-              With BizBootstrap, you can rest assured that you will get off on the right foot. By utilising our start-up service, you are a step ahead when it comes to looking the part, and this leaves you the capacity to focus on delivering your products and services.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-2 order-1">
-          <div class="image text-center mb-lg-0 mb-4">
-            <img src="images/rocket_launch.png" alt="rocket_launch" class="img-fluid deliver-img">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="image text-center mb-lg-0 mb-4">
-              <img src="images/progress.png" alt="progress" class="img-fluid thrive-img">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="text">
-              <h2 class="section-heading thrive mb-4">Thrive</h2>
-              <p>
-                With our continued support, you can upscale your requirements, from simple web-presence website to a fully encapsulated eCommerce offering. We provide online marketing services and tools to help you decipher and utilise analytics and behavioural data to drive growth in your business.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ===//end of About section === -->
- 
+  <!-- === ? section start === -->
+  <section class="?">
 
-  <!-- === Packages section start === -->
-  <section class="packages">
-    <div class="container">
-      <h2 class="section-heading text-center">Packages</h2>
-      <div class="row">
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item">
-            <div class="package-header text-center">
-              <h4 class="package-name">Basic</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">39</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 5 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to five addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item">
-            <div class="package-header text-center">
-              <h4 class="package-name">Standard</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">59</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 10 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to ten addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                2 dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                SEO implementation for your new website
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item active">
-            <div class="package-header text-center">
-              <div class="badge badge-success">Recommended</div>
-              <h4 class="package-name">Premium</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">99</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 25 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to five addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                SEO implementation for your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Connect Social media accounts to your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Google Analytics setup on your website to track visitor activity
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                *Professional call answering service with the first month free
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item">
-            <div class="package-header text-center">
-              <h4 class="package-name">Full</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">129</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 25 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to five addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                SEO implementation for your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Connect Social media accounts to your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Google Analytics setup on your website to track visitor activity
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
-  <!-- ===//end of Packages section === -->
+  <!-- ===//end of ? section === -->
  
 
   <!-- === faq section start === -->

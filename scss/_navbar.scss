@@ -16,3 +16,8 @@
       padding-left: 1rem;
   }
 }
+@media (max-width: 575px){
+  .navbar-brand{
+    max-width: 160px;
+  }
+}
